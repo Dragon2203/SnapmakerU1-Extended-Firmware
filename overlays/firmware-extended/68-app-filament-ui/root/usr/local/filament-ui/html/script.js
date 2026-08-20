@@ -515,7 +515,7 @@ function createChannelCard(channel) {
         b.addEventListener('mouseenter', () => {
             showPopover(b, [{
                 label: 'Force Generic',
-                value: 'Vendor is intentionally exposed to the printer as Generic.'
+                value: 'Vendor is intentionally exposed to the printer as Generic.',
                 stacked: true
             }]);
         });
