@@ -78,6 +78,8 @@ class FakeConfig:
     def get(self, key, default=None):
         return "http://spoolman.test" if key == "server" else default
 
+    def getboolean(self, key, default=False):
+        return default
 
 class SpoolLinkRecoveryTests(unittest.IsolatedAsyncioTestCase):
     def setUp(self):
