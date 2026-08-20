@@ -171,12 +171,13 @@ header h1 {
     letter-spacing: 0.05em;
 }
 
-.tag-type-badge.official   { color: var(--accent);  background: rgba(255, 107, 53, 0.12); }
-.tag-type-badge.rfid       { color: var(--accent);  background: rgba(255, 107, 53, 0.15); cursor: help; text-decoration: underline dotted; text-underline-offset: 2px; }
-.tag-type-badge.spoolman   { color: #ce93d8;        background: rgba(206, 147, 216, 0.12); cursor: help; text-decoration: underline dotted; text-underline-offset: 2px; }
-.tag-type-badge.user       { color: var(--success); background: rgba(76, 175, 80, 0.12); }
-.tag-type-badge.unknown    { color: var(--warning); background: rgba(255, 152,   0, 0.12); }
-.tag-type-badge.detecting  { color: var(--success); background: rgba(76, 175, 80, 0.12); }
+.tag-type-badge.official      { color: var(--accent);  background: rgba(255, 107, 53, 0.12); }
+.tag-type-badge.rfid          { color: var(--accent);  background: rgba(255, 107, 53, 0.15); cursor: help; text-decoration: underline dotted; text-underline-offset: 2px; }
+.tag-type-badge.force-generic { color: #64b5f6;        background: rgba(100, 181, 246, 0.12); cursor: help; text-decoration: underline dotted; text-underline-offset: 2px; }
+.tag-type-badge.spoolman      { color: #ce93d8;        background: rgba(206, 147, 216, 0.12); cursor: help; text-decoration: underline dotted; text-underline-offset: 2px; }
+.tag-type-badge.user          { color: var(--success); background: rgba(76, 175, 80, 0.12); }
+.tag-type-badge.unknown       { color: var(--warning); background: rgba(255, 152,   0, 0.12); }
+.tag-type-badge.detecting     { color: var(--success); background: rgba(76, 175, 80, 0.12); }
 
 .card-type-badge {
     font-size: 11px;
