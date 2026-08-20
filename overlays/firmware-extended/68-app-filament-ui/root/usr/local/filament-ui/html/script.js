@@ -516,6 +516,7 @@ function createChannelCard(channel) {
             showPopover(b, [{
                 label: 'Force Generic',
                 value: 'Vendor is intentionally exposed to the printer as Generic.'
+                stacked: true
             }]);
         });
         b.addEventListener('mouseleave', hidePopover);
@@ -638,7 +639,7 @@ function createChannelCard(channel) {
 function showPopover(anchorEl, rows) {
     const popover = document.getElementById('info-popover');
     popover.innerHTML = rows.map(r =>
-        `<div class="popover-row">` +
+        `<div class="popover-row${r.stacked ? ' stacked' : ''}">` +
         `<span class="popover-label">${escHtml(r.label)}</span>` +
         `<span class="popover-value">${r.html !== undefined ? r.html : escHtml(r.value)}</span>` +
         `</div>`

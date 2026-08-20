@@ -815,6 +815,10 @@ input[type="checkbox"] {
     padding: 2px 0;
 }
 
+.popover-row.stacked { display: block; }
+.popover-row.stacked .popover-label { display: block; margin-bottom: 6px; }
+.popover-row.stacked .popover-value { display: block; text-align: left; white-space: normal; max-width: 280px; }
+
 .popover-label { color: var(--muted); white-space: nowrap; }
 .popover-value { color: var(--text); text-align: right; word-break: break-all; font-family: monospace; }
 
